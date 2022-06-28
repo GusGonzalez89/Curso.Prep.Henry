@@ -17,7 +17,7 @@ function crearUsuario() {
   
     Usuario.prototype.saludar = function() {
       return 'Hola, mi nombre es ' + this.nombre;
-    };
+    }
   
     return Usuario;
   
@@ -102,7 +102,7 @@ function agregarMetodo() {
   //Ej: "Juan, 22 años"
   Persona.prototype.datos=function(){
     return this.nombre + "," + this.edad + "años";
-  }
+  };
 }
   
 
